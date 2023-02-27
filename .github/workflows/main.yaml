@@ -48,6 +48,9 @@ jobs:
         working-directory: app
         run: |
           npm run lint
+          npm run audit
+          npm run test
+
 
       # TODO: add supply chain scanning
 
