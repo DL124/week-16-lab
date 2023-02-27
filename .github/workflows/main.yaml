@@ -48,7 +48,8 @@ jobs:
         working-directory: app
         run: |
           npm run lint
-          npm audit
+          npm audit fix --force
+          npm run test
           
 
 
