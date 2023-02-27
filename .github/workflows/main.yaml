@@ -47,8 +47,8 @@ jobs:
       - name: run linting
         working-directory: app
         run: |
-          npm run lint
           npm run audit
+          npm run lint
           npm run test
 
 
